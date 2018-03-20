@@ -1,4 +1,4 @@
-﻿
+
 import time
 from grovepi import *
 import math
@@ -35,6 +35,9 @@ while True:
 			print("temp =", temp, "C\thumidity =",hum,"%", "distance=",distant)
 			if (temp>=22)&(temp_flag==1) :
 				print("temp= ", temp) 
+				#push alarm //expecting
+				str_sample='nodejs fcm-pushserver2.js m_on '+str(temp)+' '+str(hum)
+				os.system(str_sample)
 				temp_flag=0
 				sleep(0.5)
 				
@@ -50,6 +53,11 @@ while True:
 				temp_flag=1
 				down_flag=1
 
+				print("button pull")
+				#pull alarm
+				
+				str_sample='nodejs fcm-pushserver2.js m_off'
+				os.system(str_sample)
 			digitalWrite(buzzer_pin,0)		
 	except KeyboardInterrupt:	# Stop the buzzer before stopping
 		print("key")
