@@ -52,7 +52,6 @@ while True:
 			if down_flag==0 :
 				temp_flag=1
 				down_flag=1
-
 				print("button pull")
 				#pull alarm
 				

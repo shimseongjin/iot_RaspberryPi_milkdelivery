@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "979612707855",
+    "firebase_url": "https://pushservice-ea7d5.firebaseio.com",
+    "project_id": "pushservice-ea7d5",
+    "storage_bucket": "pushservice-ea7d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979612707855:android:61f94b3ef077c329",
+        "android_client_info": {
+          "package_name": "kr.ac.kumoh.s20131403.pushservice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "979612707855-v9n7cnk0s661sk3294o9smm4glqd6sv5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVUT6cJmBwaPVD7Q_yDsK4Lxh--KZjqxc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
