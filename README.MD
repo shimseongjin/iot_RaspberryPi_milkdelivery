@@ -26,13 +26,13 @@
 - 푸시 알림
   - 센서 값이 일정 이상일 경우 푸시
 
-  ![GitHub Logo](/Image/iot1.png)
+  ![GitHub Logo](/image/iot1.png)
  
 - 안드로이드 어플리케이션 구현
   - 온도와 습도를 실시간으로 확인가능
 
-  ![GitHub Logo](/Image/iot2.png)
+  ![GitHub Logo](/image/iot2.png)
 
-  ![GitHub Logo](/Image/iot3.png)
+  ![GitHub Logo](/image/iot3.png)
 
   .
